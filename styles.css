@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', cursive;
+    color: white;
+    background: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.left img {
+    width: 136px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+.mid {
+    display: block;
+    width: 75%;
+    margin: auto;
+    margin-right: 20px;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+    color: #e24072;
+    text-decoration: none;
+    padding: 10px;
+}
+.container1 {
+    float: left;
+    border: 6px solid white;
+    padding: 75px;
+    width: 20%;
+    border-radius: 32px;
+    margin-top: 260px;
+    background-color: #3ddfee;
+    color: #e24072;
+}
+.container2 {
+    float: left;
+    background-color: #3ddfee;
+    color: #e24072;
+    border: 6px solid white;
+    margin-left: 100px;
+    padding: 75px;
+    width: 20%;
+    border-radius: 32px;
+    margin-top: 260px;;
+}
+.container3 {
+    float: right;
+    background-color: #3ddfee;
+    color: #e24072;
+    border: 6px solid white;
+    padding: 75px;
+    width: 20%;
+    border-radius: 32px;
+    margin-top: 260px;
+}
+.con > h1 {
+    text-align: center;
+}
+.other {
+    position: fixed;
+    font-family: 'Poppins';
+    margin-left: 250px;
+    padding-top: 100px;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(219, 185, 222);
+}
